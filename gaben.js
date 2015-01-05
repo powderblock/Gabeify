@@ -2,6 +2,7 @@ javascript: function GabeN(ratio, imageurl) {
   this.ratio = ratio;
   this.imageurl = imageurl
 }
+
 var getGabeN = {
   init: function(myGabeN) {
     this.myGabeN = myGabeN
@@ -26,7 +27,13 @@ var getGabeN = {
 function Randomize(images) {
   return Math.floor(Math.random() * images.length)
 }
-var myGabeN = [new GabeN("horizontal", "http://i.imgur.com/7MRsGme.jpg"), new GabeN("horizontal", "http://i.imgur.com/ATeXA7w.jpg"), new GabeN("horizontal", "http://i.imgur.com/m172FXu.jpg"), new GabeN("vertical", "http://heygirl.io/img/GabeN-vert-1.jpg"), new GabeN("vertical", "http://i.imgur.com/ATeXA7w.jpg"), new GabeN("square", "http://i.imgur.com/7MRsGme.jpg")];
+
+var myGabeN = [new GabeN("horizontal", "http://i.imgur.com/7MRsGme.jpg"), 
+new GabeN("horizontal", "http://i.imgur.com/ATeXA7w.jpg"), 
+new GabeN("horizontal", "http://i.imgur.com/m172FXu.jpg"), 
+new GabeN("vertical", "http://heygirl.io/img/GabeN-vert-1.jpg"), 
+new GabeN("vertical", "http://i.imgur.com/ATeXA7w.jpg"), 
+new GabeN("square", "http://i.imgur.com/7MRsGme.jpg")];
 
 function imageRatio(image) {
   var proportion = image.height / image.width;
