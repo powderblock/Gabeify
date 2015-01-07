@@ -1,0 +1,23 @@
+{
+    "name": "Gabeifacation",
+    "description": "Bring lord gaben to any web page your heart desires.",
+    "version": "0.1",
+    "permissions": [
+    "tabs","<all_urls>"
+    ],
+    "browser_action": {
+        //"default_icon": "icon.png"
+    },
+
+    "content_scripts": [
+        {
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+            ],
+        "js": ["gaben.js"],
+        "run_at": "document_end"
+        }
+    ], 
+    "manifest_version":2
+}
