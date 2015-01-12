@@ -1,10 +1,10 @@
 Gabeifacation
 =============
-Bring lord gaben to any web page your heart desires.
+Bring lord GabeN to any web page your heart desires.
+A script to add GabeN in place of all the images in your browser.
 
 Credits
 ------
-A script to add GabeN to your browser.  
 
 Gabeifacation is a modified implementation of the [HEY GIRL](http://heygirl.io/) script.  
 HEY GIRL is made by [Katherine Champagne](https://twitter.com/keccers).  
