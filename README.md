@@ -1,6 +1,9 @@
 Gabeifacation
 =============
 Bring lord GabeN to any web page your heart desires.
+
+![](https://raw.githubusercontent.com/powderblock/Gabeify/master/images/before%20after%20gabeify.png)
+
 A script to add GabeN in place of all the images in your browser.
 
 Credits
